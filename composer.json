@@ -1,0 +1,6 @@
+{
+  "name": "developtus",
+  "require": {
+    "phalcon/incubator": "^3.4"
+  }
+}
