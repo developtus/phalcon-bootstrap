@@ -45,7 +45,7 @@ $di->setShared('url', function () {
 
 $di->setShared('voltService', function ($view) {
     $volt = new \Phalcon\Mvc\View\Engine\Volt($view, $this);
-    $directory = $this->getShared('config')->application->cacheDir . '/volt';
+    $directory = $this->getShared('config')->application->cacheDir . '/volt/';
 
     if (!is_dir($directory)) {
         mkdir($directory, 0755, true);
