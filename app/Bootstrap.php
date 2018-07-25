@@ -2,11 +2,9 @@
 
 namespace App;
 
-use Phalcon\Config;
 use Phalcon\Debug;
 use Phalcon\DI\FactoryDefault;
 use Phalcon\Mvc\Application;
-use Phalcon\Mvc\Model;
 
 /**
  * Class Bootstrap
